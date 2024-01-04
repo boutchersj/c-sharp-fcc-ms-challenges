@@ -1,0 +1,5 @@
+int fahrenheit = 94;
+
+decimal celsius = (fahrenheit - 32.0m) * (5.0m/9.0m);
+
+Console.Write($"The temperature is {Math.Round(celsius, 1)} Celsius.");
